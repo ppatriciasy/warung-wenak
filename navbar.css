@@ -1,0 +1,73 @@
+/*Navigation Bar*/
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 17%;
+    background-color: rgb(248, 249, 251);
+    border-radius: 0px 0px 12rem 12rem;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Logo sebelah kiri*/
+
+.logo {
+    position: absolute;
+    top: 20%;
+    left: 8.8%;
+}
+
+
+/*Menu sebelah kanan*/
+
+.navbar-menu {
+    position: absolute;
+    top: 33%;
+    right: 10%;
+    height: 33%;
+    width: 74%;
+}
+
+.navbar-menu-item {
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.navbar-menu-item:hover {
+    background-color: rgb(214, 78, 4);
+    cursor: pointer;
+}
+
+.navbar-submenu {
+    display: none;
+    position: absolute;
+    top: 4.4rem;
+    left: 0;
+    height: 21.5rem;
+    width: 15rem;
+    background-color: rgb(248, 249, 251);
+    border-radius: 0.5rem;
+    z-index: 1002;
+}
+
+.navbar-submenu-item {
+    float: none;
+    padding: 1rem 2rem;
+}
+
+.navbar-menu-item:hover .navbar-submenu {
+    display: block;
+}
+
+.navbar-submenu-item:hover {
+    background-color: rgb(214, 78, 4);
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,213 @@
+html {
+    font-size: 62.5%;
+    /* 1rem = 10px in default font setting*/
+}
+
+body {
+    background-image: url("img/bgrn.jpg");
+    position: relative;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+html,
+body {
+    /* max-width: 100%; */
+    overflow-x: hidden;
+    /* overflow: hidden; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*Navigation Bar*/
+
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 18.5%;
+    background-color: rgb(248, 249, 251);
+    border-radius: 0px 0px 120px 120px;
+}
+
+
+/* ------------ */
+
+.content {
+    /* padding: 50px 20px; */
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* ---------------------------- */
+
+.menu-box {
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #FFF;
+    height: 2000px;
+    /* atur bgrn hitam trnsapa */
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+
+/* start judul Menu */
+
+.heading-title {
+    margin-bottom: 40px;
+}
+
+.heading-title h2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.heading-title p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+
+/* end judul menu */
+
+.child-box {
+    border: 0px solid;
+    padding: 20px 20px;
+    overflow: hidden;
+    border-top: 1px solid;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.left-box {
+    border: 0px solid;
+    width: 65%;
+    float: left;
+    padding: 5px 10px;
+}
+
+.isi-kiri-title {
+    border: 0px solid;
+    padding: 2px 2px;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+.isi-kiri-desc {
+    border: 0px solid;
+    padding: 2px 2px;
+}
+
+.button {
+    text-align: right;
+    box-shadow: none !important;
+}
+
+.b-detail {
+    display: inline-block;
+    padding: 12px 11px;
+    background-color: rgb(214, 78, 4);
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgb(248, 249, 251);
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-top: 2px;
+    margin-right: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 0;
+}
+
+.right-box {
+    border: 0px solid;
+    width: 31%;
+    float: left;
+    padding: 10px 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    border: 0px solid;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+    background-color: #212529;
+    font-size: 10pt;
+}
+
+
+/* footer menu makanan */
+
+.copyright {
+    width: 100%;
+    border: 0px solid;
+    margin-top: 1580px;
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 10pt;
+    color: #FFFFFF;
+    background-color: #212529;
+    /*     border-top: 1px solid rgba(207, 166, 113); */
+    /*     padding: 5px 0; */
+    z-index: 1;
+}
+
+.hestia-fade {
+    opacity: 1;
+}
+
+.hestia-scroll-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 999;
+    -webkit-transition: opacity .25s ease-in-out;
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: #ffffff;
+}

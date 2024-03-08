@@ -1,0 +1,108 @@
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    /* 1rem = 10px in default font setting*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-image: url("img/bgrn.jpg");
+    position: relative;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.wrapper {
+/*     background-image: url("img/bgrn.jpg");
+    background-size: cover; */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*Navigation Bar*/
+
+
+/*Tampilan Utama*/
+
+.main {
+    position: relative;
+    width: 70%;
+    margin-top: 7rem;
+    margin-left: 11.5rem;
+}
+
+.main h1 {
+    font-size: 6rem;
+    margin: 0;
+    color: rgb(248, 249, 251);
+}
+
+.main p {
+    width: 55%;
+    line-height: 3rem;
+    font-size: 2rem;
+    color: rgb(248, 249, 251);
+}
+
+.main-shading {
+    display: block;
+    position: absolute;
+    top: -1rem;
+    left: -2rem;
+    background: rgba(0, 0, 0, 0.5);
+    height: 40rem;
+    width: 117rem;
+    border-radius: 2rem;
+}
+
+.button {
+    background-color: rgba(214, 78, 4, 0.8);
+    color: white;
+    border: 0;
+    padding: 1.3rem 3.5rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.button a {
+    color: rgb(248, 249, 251);
+}
+
+.button:hover {
+   /*  position: relative; */
+   /*  top: 0.3rem; */
+   border: 2px solid;
+    background-color: rgba(214, 78, 4, 1);
+
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    border: 0px solid;
+    text-align: center;
+    line-height: 50px;
+    color: #FFFFFF;
+    background-color: #212529;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,54 @@
+.ulasan {
+    display: block;
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.ulasan h2 {
+    margin: 0 0 3rem 0;
+    font-size: 3rem;
+}
+
+.ulasan-nama,
+.ulasan-jenisKelamin,
+.ulasan-pekerjaan {
+    margin-bottom: 1rem;
+}
+
+.ulasan-nama input,
+.ulasan-pekerjaan select,
+#ulasan-pesan {
+    width: 20rem;
+    background: #fff;
+    border: 0.1rem solid #CCCCCC;
+    border-radius: 1rem;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1) inset, 0 0.1rem 0 rgba(255, 255, 255, 0.2);
+    padding: 0.8rem 0.6rem;
+}
+
+.ulasan-nama input {
+    height: 2rem;
+}
+
+.ulasan-pekerjaan select {
+    height: 4rem;
+}
+
+.ulasan-viewport-kanan {
+    position: absolute;
+    top: 3rem;
+    left: 70rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+.ulasan label[for="ulasan-pesan"] {
+    font-size: 3rem;
+}
+
+#ulasan-pesan {
+    height: 20rem;
+    width: 40rem;
+}
