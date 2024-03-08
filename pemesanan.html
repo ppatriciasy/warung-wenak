@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Warung Wenak</title>
+    <link rel="shortcut icon" href="img/logo-atas.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style-pemesanan.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="logo">
+               <img src="img/logo-web-update.png" alt="logo">
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-menu-item"><a href="kontak.html">Kontak</a></div>
+                <div class="navbar-menu-item"><a href="ulasan.html">Ulasan</a></div>
+                <div class="navbar-menu-item"><a href="pemesanan.html">Pemesanan</a></div>
+                <div class="navbar-menu-item"><a href="menu-makanan.html">Menu</a>
+                    <div class="navbar-submenu">
+                         <div class="navbar-submenu-item"><a href="menu-makanan.html#menu-1">Ayam </a></div>
+                        <div class="navbar-submenu-item"><a href="menu-makanan.html#menu-2">Balado</a></div>
+                        <div class="navbar-submenu-item"><a href="menu-makanan.html#menu-3">Kakap</a></div>
+                        <div class="navbar-submenu-item"><a href="menu-makanan.html#menu-4">Ikan</a></div>
+                        <div class="navbar-submenu-item"><a href="menu-makanan.html#menu-5">Sate</a></div>
+                    </div>
+                </div>
+                <div class="navbar-menu-item"><a href="index.html">Home</a></div>
+            </div>
+        </header>
+        <main>
+            <div class="main">
+                <div class="main-shading"></div>
+                <form class="pemesanan">
+                    <h1>Pesan Antar</h1>
+                    <input type="radio" name="pemesanan-manu" id="pemesanan-menu1" value="menu1" checked="checked">
+                    <label for="pemesanan-menu1">Ayam Pop</label>
+                    <br/>
+                    <input type="radio" name="pemesanan-manu" id="pemesanan-menu2" value="menu2">
+                    <label for="pemesanan-menu2">Dedeng Balado</label>
+                    <br/>
+                    <input type="radio" name="pemesanan-manu" id="pemesanan-menu3" value="menu3">
+                    <label for="pemesanan-menu3">Gulai Kakap</label>
+                    <br/>
+                    <input type="radio" name="pemesanan-manu" id="pemesanan-menu4" value="menu4">
+                    <label for="pemesanan-menu4">Ikan Kembung</label>
+                    <br/>
+                    <input type="radio" name="pemesanan-manu" id="pemesanan-menu5" value="menu5">
+                    <label for="pemesanan-menu5">Sate Padang</label>
+                    <br/>
+                    <div class="pemesanan-harga">
+                        <p class="pemesanan-harga-1">Rp.25.000</p>
+                        <p class="pemesanan-harga-2">Rp.20.000</p>
+                        <p class="pemesanan-harga-3">Rp.40.000</p>
+                        <p class="pemesanan-harga-4">Rp.35.000</p>
+                        <p class="pemesanan-harga-5">Rp.25.000</p>
+                    </div>
+                    <button type="submit" id="pemesanan-submit" class="button">Pesan</button>
+                    <div class="pemesanan-viewport-kanan">
+                        <div class="pemesanan-gambar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                Copyright &copy; 2021 KelompokSebelas. All Right Reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
